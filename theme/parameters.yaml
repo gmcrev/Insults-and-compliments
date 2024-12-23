@@ -17,6 +17,8 @@ color_scheme:
   - {color: '#980000', name: Tertiary 700}
   - {color: '#00ff00', name: Quarternary 500}
   - {color: '#009800', name: Quarternary 700}
+  - {color: '#E0B0FF', name: Quinary 500}
+  - {color: '#C08FE0', name: Quinary 700}
   preset_groups:
   - name: Primary Colour
     options:
@@ -181,5 +183,9 @@ roles:
   name: dense
 - components: [Link]
   name: selected
-- {name: tertiary-color}
-- {name: quarternary-color}
+- components: [Button]
+  name: tertiary-color
+- components: [Button]
+  name: quarternary-color
+- components: [Button]
+  name: quinary-color
