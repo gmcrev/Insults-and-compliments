@@ -3,13 +3,13 @@ components:
   - data_bindings: []
     event_bindings: {click: get_nicesanta_click}
     layout_properties: {width: 150, x: 150, y: 120}
-    name: nicesanta
+    name: get_nicesanta
     properties: {align: center, background: '', bold: false, border: '', enabled: true, font: '', font_size: 22, foreground: '', icon: '', icon_align: left, italic: false, role: quarternary-color, spacing_above: small, spacing_below: small, text: Nice Santa, tooltip: '', underline: false, visible: true}
     type: Button
   - data_bindings: []
     event_bindings: {click: get_badsanta_click}
     layout_properties: {width: 150, x: 0, y: 120}
-    name: badsanta
+    name: get_badsanta
     properties: {align: center, background: '', bold: false, border: '', enabled: true, font: '', font_size: 22, foreground: '', icon: '', icon_align: left, italic: false, role: tertiary-color, spacing_above: small, spacing_below: small, text: Bad Santa, tooltip: '', underline: false, visible: true}
     type: Button
   - event_bindings: {click: get_insult_click}
