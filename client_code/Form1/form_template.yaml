@@ -1,0 +1,41 @@
+components:
+- components:
+  - data_bindings: []
+    event_bindings: {click: get_nicesanta_click}
+    layout_properties: {width: 150, x: 150, y: 120}
+    name: nicesanta
+    properties: {align: center, background: 'theme:Quarternary 500', bold: false, border: '', enabled: true, font: '', font_size: 22, foreground: 'theme:White', icon: '', icon_align: left, italic: false, role: quarternary-color, spacing_above: small, spacing_below: small, text: Nice Santa, tooltip: '', underline: false, visible: true}
+    type: Button
+  - data_bindings: []
+    event_bindings: {click: get_badsanta_click}
+    layout_properties: {width: 150, x: 0, y: 120}
+    name: badsanta
+    properties: {align: center, background: 'theme:Tertiary 500', bold: false, border: '', enabled: true, font: '', font_size: 22, foreground: 'theme:White', icon: '', icon_align: left, italic: false, role: tertiary-color, spacing_above: small, spacing_below: small, text: Bad Santa, tooltip: '', underline: false, visible: true}
+    type: Button
+  - event_bindings: {click: get_insult_click}
+    layout_properties: {width: 150, x: 0, y: 50}
+    name: get_insult
+    properties: {align: center, background: '', bold: false, border: '', enabled: true, font: '', font_size: 18, foreground: '', icon: '', icon_align: left, italic: false, role: primary-color, spacing_above: small, spacing_below: small, text: Modern Insult, tooltip: '', underline: false, visible: true}
+    type: Button
+  - event_bindings: {click: get_compliment_click}
+    layout_properties: {width: 150, x: 150, y: 50}
+    name: get_compliment
+    properties: {align: center, background: 'theme:Gray 300', bold: false, border: '', enabled: true, font: '', font_size: 18, foreground: 'theme:Gray 800', icon: '', icon_align: left, italic: false, role: raised, spacing_above: small, spacing_below: small, text: Modern Compliment, tooltip: '', underline: false, visible: true}
+    type: Button
+  - event_bindings: {click: get_old_insult_click}
+    layout_properties: {width: 300, x: 0, y: 0}
+    name: get_old_insult
+    properties: {align: center, background: '', bold: false, border: '', enabled: true, font: '', font_size: 22, foreground: '', icon: '', icon_align: left, italic: false, role: secondary-color, spacing_above: small, spacing_below: small, text: Shakespearean Insult, tooltip: '', underline: false, visible: true}
+    type: Button
+  - layout_properties: {width: 300, x: 0, y: 200}
+    name: output
+    properties: {font_size: 24, height: '200'}
+    type: TextArea
+  layout_properties: {slot: nav-right}
+  name: xy_panel_1
+  properties: {height: 396, width: 300}
+  type: XYPanel
+container:
+  properties: {html: '@theme:standard-page.html'}
+  type: HtmlTemplate
+is_package: true
