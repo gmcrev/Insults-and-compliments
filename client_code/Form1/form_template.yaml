@@ -1,12 +1,6 @@
 components:
 - components:
   - data_bindings: []
-    event_bindings: {click: get_nicesanta_click}
-    layout_properties: {width: 150, x: 150, y: 120}
-    name: get_nicesanta
-    properties: {align: center, background: '', bold: false, border: '', enabled: true, font: '', font_size: 22, foreground: '', icon: '', icon_align: left, italic: false, role: quarternary-color, spacing_above: small, spacing_below: small, text: Nice Santa, tooltip: '', underline: false, visible: true}
-    type: Button
-  - data_bindings: []
     event_bindings: {click: get_badsanta_click}
     layout_properties: {width: 150, x: 0, y: 120}
     name: get_badsanta
@@ -17,11 +11,6 @@ components:
     name: get_insult
     properties: {align: center, background: '', bold: false, border: '', enabled: true, font: '', font_size: 18, foreground: '', icon: '', icon_align: left, italic: false, role: primary-color, spacing_above: small, spacing_below: small, text: Modern Insult, tooltip: '', underline: false, visible: true}
     type: Button
-  - event_bindings: {click: get_compliment_click}
-    layout_properties: {width: 150, x: 150, y: 50}
-    name: get_compliment
-    properties: {align: center, background: '', bold: false, border: '', enabled: true, font: '', font_size: 18, foreground: '', icon: '', icon_align: left, italic: false, role: quinary-color, spacing_above: small, spacing_below: small, text: Modern Compliment, tooltip: '', underline: false, visible: true}
-    type: Button
   - event_bindings: {click: get_old_insult_click}
     layout_properties: {width: 300, x: 0, y: 0}
     name: get_old_insult
@@ -31,6 +20,17 @@ components:
     name: output
     properties: {font_size: 24, height: '200'}
     type: TextArea
+  - event_bindings: {click: get_compliment_click}
+    layout_properties: {width: 150, x: 150, y: 50}
+    name: get_compliment
+    properties: {align: center, background: '', bold: false, border: '', enabled: true, font: '', font_size: 18, foreground: '', icon: '', icon_align: left, italic: false, role: quinary-color, spacing_above: small, spacing_below: small, text: Modern Compliment, tooltip: '', underline: false, visible: true}
+    type: Button
+  - data_bindings: []
+    event_bindings: {click: get_nicesanta_click}
+    layout_properties: {width: 150, x: 150, y: 120}
+    name: get_nicesanta
+    properties: {align: center, background: '', bold: false, border: '', enabled: true, font: '', font_size: 22, foreground: '', icon: '', icon_align: left, italic: false, role: quarternary-color, spacing_above: small, spacing_below: small, text: Nice Santa, tooltip: '', underline: false, visible: true}
+    type: Button
   layout_properties: {slot: default}
   name: xy_panel_1
   properties: {height: '400', width: 300}
