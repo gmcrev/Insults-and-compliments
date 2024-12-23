@@ -13,12 +13,12 @@ color_scheme:
   - {color: '#424242', name: Gray 800}
   - {color: '#212121', name: Gray 900}
   - {color: '#000000', name: Black}
-  - {color: '#ff0000', name: Tertiary 500}
-  - {color: '#980000', name: Tertiary 700}
-  - {color: '#00ff00', name: Quarternary 500}
-  - {color: '#009800', name: Quarternary 700}
-  - {color: '#E0B0FF', name: Quinary 500}
-  - {color: '#C08FE0', name: Quinary 700}
+  - {color: '#F44336', name: Tertiary 500}
+  - {color: '#D32F2F', name: Tertiary 700}
+  - {color: '#4CAF50', name: Quarternary 500}
+  - {color: '#388E3C', name: Quarternary 700}
+  - {color: '#9C27B0', name: Quinary 500}
+  - {color: '#7B1FA2', name: Quinary 700}
   preset_groups:
   - name: Primary Colour
     options:
