@@ -183,9 +183,9 @@ roles:
   name: dense
 - components: [Link]
   name: selected
-- components: [Button]
+- components: [Button, FileLoader]
   name: tertiary-color
-- components: [Button]
+- components: [Button, FileLoader]
   name: quarternary-color
-- components: [Button]
+- components: [Button, FileLoader]
   name: quinary-color

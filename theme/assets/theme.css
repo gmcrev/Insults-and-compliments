@@ -633,6 +633,22 @@ body>div[data-notify="container"].alert-warning>span[data-notify="title"]{
   background-color: %color:Secondary 500%;
 }
 
+/*GMC 2024  */
+.anvil-role-tertiary-color > .btn, .anvil-role-tertiary-color.file-loader>label {
+  color: white;
+  background-color: %color:Tertiary 500%;
+}
+
+.anvil-role-quarternary-color > .btn, .anvil-role-quarternary-color.file-loader>label {
+  color: white;
+  background-color: %color:Quarternary 500%;
+}
+
+.anvil-role-quinary-color > .btn, .anvil-role-quinary-color.file-loader>label {
+  color: white;
+  background-color: %color:Quinary 500%;
+}
+    
 .btn-success, .btn-info, .btn-warning, .btn-danger {
   color: white;
 }

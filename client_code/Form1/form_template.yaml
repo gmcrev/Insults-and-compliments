@@ -31,10 +31,6 @@ components:
     name: output
     properties: {font_size: 24, height: '200'}
     type: TextArea
-  - layout_properties: {width: 157, x: 110.046875, y: 324.09375}
-    name: button_1
-    properties: {enabled: true, role: tertiary-color, text: button_1}
-    type: Button
   layout_properties: {slot: default}
   name: xy_panel_1
   properties: {height: 396, width: 300}
