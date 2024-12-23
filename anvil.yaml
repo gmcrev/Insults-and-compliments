@@ -2,8 +2,8 @@ allow_embedding: false
 correct_dependency_ids: {}
 db_schema: {}
 dependencies: []
-metadata: {description: This app generates a random insult., logo_img: 'asset:insult.png', title: Insult Generator}
-name: Clone of PC Insult Generator
+metadata: {description: This app generates a random insult., logo_img: 'asset:insult.png', title: PC Insult Generator}
+name: PC Insult Generator
 package_name: GMC_Name_and_age
 runtime_options: {client_version: '3', server_spec: null, server_version: python3-sandbox, version: 2}
 services:
