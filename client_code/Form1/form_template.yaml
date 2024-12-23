@@ -33,7 +33,7 @@ components:
     type: TextArea
   layout_properties: {slot: default}
   name: xy_panel_1
-  properties: {height: 396, width: 300}
+  properties: {height: '400', width: 300}
   type: XYPanel
 container:
   properties: {html: '@theme:standard-page.html'}
